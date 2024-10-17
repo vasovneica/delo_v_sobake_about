@@ -324,7 +324,11 @@ h2 {
 
 
 /* 1680+ */
-/* @media (min-width: 1679px) {} */
+@media (min-width: 1679px) {
+     .about_page_ul {
+        height: 480px;
+    }
+} 
 
 /* 1200+ */
 @media (max-width: 1679px) {
@@ -332,7 +336,9 @@ h2 {
         padding: 100px 20px;
 
     }
-
+    .about_page_ul {
+        height: 480px;
+    }
 }
 
 /* 1024+ */
@@ -369,7 +375,9 @@ h2 {
 
         color: #333
     }
-
+    .about_page_ul {
+        height: 480px;
+    }
 }
 
 /* 768+ */
@@ -416,7 +424,7 @@ h2 {
     }
 
     .about_page_ul {
-        height: 588px;
+        height: 540px;
 
         margin-top: 50px;
 
